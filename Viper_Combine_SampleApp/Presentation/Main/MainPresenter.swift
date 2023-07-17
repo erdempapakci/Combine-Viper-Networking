@@ -9,7 +9,7 @@ import Combine
 
 final class MainPresenter: MainPresenterProtocol {
     
-    var cancellabes: [AnyCancellable] = []
+    private var cancellables = Set<AnyCancellable>()
    
     private unowned let view: MainViewProtocol
     var router: MainRouterProtocol
@@ -19,11 +19,11 @@ final class MainPresenter: MainPresenterProtocol {
         self.router = router
         self.interactor = interactor
     }
+    @Published var podcasts: [Podcast] = []
     
-    var podcats: [Podcast] = []
     
     func cellForRowAt(_ index: Int) -> Podcast {
-        return podcats[index]
+        return podcasts[index]
     }
 
     
@@ -33,7 +33,7 @@ final class MainPresenter: MainPresenterProtocol {
    
     func numberOfRows() -> Int {
        
-        return podcats.count
+        return podcasts.count
     }
   
     func viewDidLoad() {
@@ -52,10 +52,10 @@ final class MainPresenter: MainPresenterProtocol {
                 case .finished: break
                 }
             } receiveValue: { [weak self] users in
-                self?.podcats = users
+                self?.podcasts = users
                 self?.view.reloadData()
             }
-            .store(in: &cancellabes)
+            .store(in: &cancellables)
 
     }
  
