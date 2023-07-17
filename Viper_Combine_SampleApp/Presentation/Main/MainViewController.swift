@@ -52,7 +52,7 @@ extension MainViewController: UITableViewDelegate, UITableViewDataSource {
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "cell")!
         cell.textLabel?.text = presenter.cellForRowAt(indexPath.row).artistName
-        cell.detailTextLabel?.text = presenter.cellForRowAt(indexPath.row).id
+       
         
         return cell
         
