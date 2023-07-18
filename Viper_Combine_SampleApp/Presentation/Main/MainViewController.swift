@@ -53,7 +53,6 @@ extension MainViewController: UITableViewDelegate, UITableViewDataSource {
         let cell = tableView.dequeueReusableCell(withIdentifier: "cell")!
         cell.textLabel?.text = presenter.cellForRowAt(indexPath.row).artistName
        
-        
         return cell
         
     }

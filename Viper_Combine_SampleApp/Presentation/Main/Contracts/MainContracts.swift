@@ -17,15 +17,12 @@ protocol MainViewProtocol: AnyObject {
 
 // Presenter
 
-
 protocol MainPresenterProtocol {
     func cellForRowAt(_ index: Int) -> Podcast
     func numberOfRows() -> Int
-    func didSelectRow(_ index: Int)
     func viewDidLoad()
     func load(count: Int)
-    
-    
+  
 }
 
 // Interactor
@@ -35,4 +32,6 @@ protocol MainInteractorProtocol {
     func fetchData(count: Int) -> AnyPublisher<[Podcast],Error>
 }
 
+// Router
 
+// We will show just a tableview so do not need one 

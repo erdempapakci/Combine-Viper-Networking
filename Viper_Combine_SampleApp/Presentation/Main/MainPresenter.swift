@@ -7,11 +7,12 @@
 import Foundation
 import Combine
 
-final class MainPresenter: MainPresenterProtocol {
+final class MainPresenter: MainPresenterProtocol, ObservableObject {
     
     private var cancellables = Set<AnyCancellable>()
    
     private unowned let view: MainViewProtocol
+    
     var router: MainRouterProtocol
     var interactor: MainInteractorProtocol
     init(view: MainViewProtocol, router: MainRouterProtocol, interactor: MainInteractorProtocol) {
@@ -19,17 +20,13 @@ final class MainPresenter: MainPresenterProtocol {
         self.router = router
         self.interactor = interactor
     }
-    @Published var podcasts: [Podcast] = []
     
+     var podcasts: [Podcast] = []
     
     func cellForRowAt(_ index: Int) -> Podcast {
         return podcasts[index]
     }
 
-    
-    func didSelectRow(_ index: Int) {
-        
-    }
    
     func numberOfRows() -> Int {
        
@@ -58,7 +55,6 @@ final class MainPresenter: MainPresenterProtocol {
             .store(in: &cancellables)
 
     }
- 
  
 }
 

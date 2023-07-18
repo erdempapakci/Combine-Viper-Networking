@@ -16,16 +16,17 @@ final class NetworkManager: NetworkManagerProtocol {
         parameters: [String: Any]? = nil,
         headers: [String: String]? = nil,
         count: Int,
-        method: RequestMethod = .get
+        method: RequestMethod
     ) -> AnyPublisher<T, Error> where T: Decodable {
         
         if let request = buildRequest(router: router, count: count) {
             return URLSession.shared.dataTaskPublisher(for: request)
-                .map(\.data)
+                .tryMap(\.data)
                 .decode(type: T.self, decoder: Decoders.Decoder)
                 .eraseToAnyPublisher()
         }
-        return Fail(error: NSError(domain: "InvalidRequest", code: 0))
+       
+        return Fail(error: NSError(domain: "Server Error", code: 0))
             .eraseToAnyPublisher()
         
     }
@@ -44,10 +45,8 @@ final class NetworkManager: NetworkManagerProtocol {
                 return nil
             }
 
-                
         let urlString = Constant.scheme + Constant.baseURL + countryCode + "/podcasts/top/\(count)/" + router.path
         guard let url = URL(string: urlString) else { return nil  }
-        print(url)
         
          var request = URLRequest(url: url)
         

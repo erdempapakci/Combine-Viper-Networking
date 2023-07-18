@@ -12,8 +12,7 @@ public final class Constant {
     
     static let scheme = "https://"
     static let baseURL = "rss.applemarketingtools.com/api/v2/"
-    static let baseURLDetail = "/podcasts/top/10/podcasts.json"
-    
+   
 }
 
 

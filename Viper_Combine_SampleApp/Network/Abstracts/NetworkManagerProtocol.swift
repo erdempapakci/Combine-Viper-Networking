@@ -18,4 +18,13 @@ protocol NetworkManagerProtocol  {
         count: Int,
         method: RequestMethod
     ) -> AnyPublisher<T, Error> where T: Decodable
+    
+    func buildRequest(
+        router: URLRouter,
+        parameters: [String: Any]?,
+        headers: [String: String]?,
+        count: Int,
+        method: RequestMethod
+  
+    )  -> URLRequest?
 }
