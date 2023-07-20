@@ -21,7 +21,7 @@ final class MainPresenter: MainPresenterProtocol, ObservableObject {
         self.interactor = interactor
     }
     
-     var podcasts: [Podcast] = []
+    @Published var podcasts: [Podcast] = []
     
     func cellForRowAt(_ index: Int) -> Podcast {
         return podcasts[index]

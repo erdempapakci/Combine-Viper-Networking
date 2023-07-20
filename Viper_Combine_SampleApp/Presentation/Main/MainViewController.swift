@@ -11,7 +11,7 @@ final class MainViewController: BaseViewController, MainViewProtocol {
    
     var presenter: MainPresenterProtocol!
     
-    private let tableView: UITableView = {
+    private lazy var tableView: UITableView = {
        let tableView = UITableView()
         tableView.register(UITableViewCell.self, forCellReuseIdentifier: "cell")
         
