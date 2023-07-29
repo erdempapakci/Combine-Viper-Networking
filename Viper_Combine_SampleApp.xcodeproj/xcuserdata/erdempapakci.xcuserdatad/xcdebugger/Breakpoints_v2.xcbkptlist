@@ -7,32 +7,16 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "E52D1446-F53B-4BCA-9CC2-71E67F430CB3"
+            uuid = "78101D1E-279F-4478-B310-3A8839F562F5"
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "Viper_Combine_SampleApp/Presentation/Main/MainPresenter.swift"
+            filePath = "Viper_Combine_SampleAppTests/Viper_Combine_SampleAppTests.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "52"
-            endingLineNumber = "52"
-            landmarkName = "load(count:)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "2AB811EA-496D-4322-B5D8-5DBACC384F3C"
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "Viper_Combine_SampleApp/Presentation/Main/MainPresenter.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "53"
-            endingLineNumber = "53"
-            landmarkName = "load(count:)"
+            startingLineNumber = "67"
+            endingLineNumber = "67"
+            landmarkName = "test_UnitTestingInteractor_fetchData_shouldEqualJSON()"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>

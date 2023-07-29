@@ -1,0 +1,214 @@
+{
+  "feed": {
+    "title": "Top Shows",
+    "id": "https://rss.applemarketingtools.com/api/v2/us/podcasts/top/10/podcasts.json",
+    "author": {
+      "name": "Apple",
+      "url": "https://www.apple.com/"
+    },
+    "links": [
+      {
+        "self": "https://rss.applemarketingtools.com/api/v2/us/podcasts/top/10/podcasts.json"
+      }
+    ],
+    "copyright": "Copyright © 2023 Apple Inc. All rights reserved.",
+    "country": "us",
+    "icon": "https://www.apple.com/favicon.ico",
+    "updated": "Fri, 28 Jul 2023 15:22:03 +0000",
+    "results": [
+      {
+        "artistName": "Serial Productions & The New York Times",
+        "id": "1691599042",
+        "name": "The Retrievals",
+        "kind": "podcasts",
+        "artworkUrl100": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts126/v4/67/b3/2e/67b32e2a-2c76-062e-a137-b544eea13cf3/mza_11647040000107936939.jpg/100x100bb.png",
+        "genres": [
+          {
+            "genreId": "1488",
+            "name": "True Crime",
+            "url": "https://itunes.apple.com/us/genre/id1488"
+          },
+          {
+            "genreId": "1324",
+            "name": "Society & Culture",
+            "url": "https://itunes.apple.com/us/genre/id1324"
+          }
+        ],
+        "url": "https://podcasts.apple.com/us/podcast/the-retrievals/id1691599042"
+      },
+      {
+        "artistName": "iHeartPodcasts & Novel",
+        "id": "1695875823",
+        "name": "The Girlfriends",
+        "kind": "podcasts",
+        "contentAdvisoryRating": "Explict",
+        "artworkUrl100": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts116/v4/3a/de/23/3ade2312-770d-1127-4618-8a7ce7fb5085/mza_7387258577189466144.jpg/100x100bb.png",
+        "genres": [
+          {
+            "genreId": "1488",
+            "name": "True Crime",
+            "url": "https://itunes.apple.com/us/genre/id1488"
+          },
+          {
+            "genreId": "1324",
+            "name": "Society & Culture",
+            "url": "https://itunes.apple.com/us/genre/id1324"
+          }
+        ],
+        "url": "https://podcasts.apple.com/us/podcast/the-girlfriends/id1695875823"
+      },
+      {
+        "artistName": "Lionsgate Sound",
+        "id": "1685691481",
+        "name": "Scamanda",
+        "kind": "podcasts",
+        "artworkUrl100": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts126/v4/58/94/c4/5894c4d9-ca9f-4f8c-09c4-b283f43e15bc/mza_14757957228535922398.jpg/100x100bb.png",
+        "genres": [
+          {
+            "genreId": "1488",
+            "name": "True Crime",
+            "url": "https://itunes.apple.com/us/genre/id1488"
+          },
+          {
+            "genreId": "1324",
+            "name": "Society & Culture",
+            "url": "https://itunes.apple.com/us/genre/id1324"
+          }
+        ],
+        "url": "https://podcasts.apple.com/us/podcast/scamanda/id1685691481"
+      },
+      {
+        "artistName": "Jason Bateman, Sean Hayes, Will Arnett",
+        "id": "1521578868",
+        "name": "SmartLess",
+        "kind": "podcasts",
+        "contentAdvisoryRating": "Explict",
+        "artworkUrl100": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts126/v4/e4/e4/2a/e4e42aec-de29-166a-be06-41fcf79466a4/mza_6413856055961475833.jpeg/100x100bb.png",
+        "genres": [
+          {
+            "genreId": "1303",
+            "name": "Comedy",
+            "url": "https://itunes.apple.com/us/genre/id1303"
+          },
+          {
+            "genreId": "1304",
+            "name": "Education",
+            "url": "https://itunes.apple.com/us/genre/id1304"
+          }
+        ],
+        "url": "https://podcasts.apple.com/us/podcast/smartless/id1521578868"
+      },
+      {
+        "artistName": "The New York Times",
+        "id": "1200361736",
+        "name": "The Daily",
+        "kind": "podcasts",
+        "artworkUrl100": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts115/v4/1c/ac/04/1cac0421-4483-ff09-4f80-19710d9feda4/mza_12421371692158516891.jpeg/100x100bb.png",
+        "genres": [
+          {
+            "genreId": "1489",
+            "name": "News",
+            "url": "https://itunes.apple.com/us/genre/id1489"
+          }
+        ],
+        "url": "https://podcasts.apple.com/us/podcast/the-daily/id1200361736"
+      },
+      {
+        "artistName": "NBC News",
+        "id": "1464919521",
+        "name": "Dateline NBC",
+        "kind": "podcasts",
+        "artworkUrl100": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts115/v4/8c/00/7a/8c007a42-e550-0214-d4cb-b59cd7edf194/mza_5305664083935674472.jpeg/100x100bb.png",
+        "genres": [
+          {
+            "genreId": "1488",
+            "name": "True Crime",
+            "url": "https://itunes.apple.com/us/genre/id1488"
+          },
+          {
+            "genreId": "1489",
+            "name": "News",
+            "url": "https://itunes.apple.com/us/genre/id1489"
+          }
+        ],
+        "url": "https://podcasts.apple.com/us/podcast/dateline-nbc/id1464919521"
+      },
+      {
+        "artistName": "audiochuck",
+        "id": "1322200189",
+        "name": "Crime Junkie",
+        "kind": "podcasts",
+        "artworkUrl100": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts126/v4/cb/4c/cb/cb4ccbce-2693-98cb-1b7b-03e54e10a40c/mza_17270479213737571887.jpg/100x100bb.png",
+        "genres": [
+          {
+            "genreId": "1488",
+            "name": "True Crime",
+            "url": "https://itunes.apple.com/us/genre/id1488"
+          }
+        ],
+        "url": "https://podcasts.apple.com/us/podcast/crime-junkie/id1322200189"
+      },
+      {
+        "artistName": "iHeartPodcasts and Glass Podcasts",
+        "id": "1615637724",
+        "name": "Betrayal",
+        "kind": "podcasts",
+        "contentAdvisoryRating": "Explict",
+        "artworkUrl100": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts116/v4/e1/a7/cb/e1a7cbf4-304b-ff0c-e176-244e06a3d576/mza_5428963133358893599.jpg/100x100bb.png",
+        "genres": [
+          {
+            "genreId": "1488",
+            "name": "True Crime",
+            "url": "https://itunes.apple.com/us/genre/id1488"
+          },
+          {
+            "genreId": "1324",
+            "name": "Society & Culture",
+            "url": "https://itunes.apple.com/us/genre/id1324"
+          }
+        ],
+        "url": "https://podcasts.apple.com/us/podcast/betrayal/id1615637724"
+      },
+      {
+        "artistName": "Scicomm Media",
+        "id": "1545953110",
+        "name": "Huberman Lab",
+        "kind": "podcasts",
+        "artworkUrl100": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts126/v4/92/fe/9b/92fe9b92-71ce-2db3-d7bc-341734439c5b/mza_17334163224187182080.jpeg/100x100bb.png",
+        "genres": [
+          {
+            "genreId": "1512",
+            "name": "Health & Fitness",
+            "url": "https://itunes.apple.com/us/genre/id1512"
+          },
+          {
+            "genreId": "1533",
+            "name": "Science",
+            "url": "https://itunes.apple.com/us/genre/id1533"
+          }
+        ],
+        "url": "https://podcasts.apple.com/us/podcast/huberman-lab/id1545953110"
+      },
+      {
+        "artistName": "Jennifer Welch and Angie Sullivan",
+        "id": "1650340709",
+        "name": "I've Had It",
+        "kind": "podcasts",
+        "artworkUrl100": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts126/v4/c2/02/db/c202dbcb-0f62-f2e8-01ef-923b69b279a4/mza_8087779926057338480.png/100x100bb.png",
+        "genres": [
+          {
+            "genreId": "1324",
+            "name": "Society & Culture",
+            "url": "https://itunes.apple.com/us/genre/id1324"
+          },
+          {
+            "genreId": "1303",
+            "name": "Comedy",
+            "url": "https://itunes.apple.com/us/genre/id1303"
+          }
+        ],
+        "url": "https://podcasts.apple.com/us/podcast/ive-had-it/id1650340709"
+      }
+    ]
+  }
+}

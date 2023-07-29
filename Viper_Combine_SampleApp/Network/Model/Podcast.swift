@@ -7,7 +7,7 @@
 
 import Foundation
 
-struct Podcast: Decodable {
+struct Podcast: Decodable, Equatable {
     
     let artistName: String
     let id: String

@@ -6,7 +6,7 @@
 //
 
 import Foundation
-struct PodcastResponse: Decodable {
+struct PodcastResponse: Decodable, Equatable {
   
     enum RootCodingKeys: String, CodingKey {
        case feed
